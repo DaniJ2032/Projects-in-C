@@ -1,0 +1,6 @@
+23:26:01 **** Build of configuration Debug for project MicroControl_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.
+
+23:26:01 Build Finished (took 416ms)
+

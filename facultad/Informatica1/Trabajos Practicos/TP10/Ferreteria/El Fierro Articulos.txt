@@ -1,0 +1,15 @@
+	*********************************
+	LISTADO DE ARTICULOS DISPONIBLES:
+	*********************************
+Cod		 Nombre			Stock		 Precio	
+***		 ******			*****		 ******	
+ 1             Soldador                   60             750.00 
+ 2                cinta                  789              45.50 
+ 3           Ter_contra                  500               6.75 
+ 4              alicate                  700              60.58 
+ 5         tester UNI-T                   80            2750.00 
+ 6          Kit Arduino                   25             863.75 
+ 7       Resistencia 1K                 2500               5.50 
+ 8            punta CMD                   41              23.60 
+ 9              Led 5mm                 1800              15.50 
+15               Esta¤o                   40             560.00 

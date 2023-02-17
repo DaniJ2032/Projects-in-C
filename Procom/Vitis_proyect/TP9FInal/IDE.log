@@ -1,0 +1,98 @@
+11:58:32 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/temp_xsdb_launch_script.tcl
+11:58:32 INFO  : Registering command handlers for Vitis TCF services
+11:58:35 INFO  : Platform repository initialization has completed.
+11:58:35 INFO  : XSCT server has started successfully.
+11:58:35 INFO  : Successfully done setting XSCT server connection channel  
+11:58:35 INFO  : plnx-install-location is set to ''
+11:58:35 INFO  : Successfully done setting workspace for the tool. 
+11:58:35 INFO  : Successfully done query RDI_DATADIR 
+11:59:18 INFO  : Result from executing command 'getProjects': top
+11:59:18 INFO  : Result from executing command 'getPlatforms': 
+11:59:18 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:59:18 INFO  : Platform 'top' is added to custom repositories.
+11:59:21 INFO  : Platform 'top' is added to custom repositories.
+12:00:15 INFO  : Result from executing command 'getProjects': top
+12:00:15 INFO  : Result from executing command 'getPlatforms': top|/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/top/export/top/top.xpfm
+12:00:18 INFO  : Checking for BSP changes to sync application flags for project 'MIcroBlazerFinal'...
+12:00:49 INFO  : Checking for BSP changes to sync application flags for project 'MIcroBlazerFinal'...
+12:01:13 INFO  : Connected to target on host 'localhost' and port '3121'.
+12:01:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:03:21 INFO  : Connected through redirection to target on host 'localhost' and port '3121'.
+12:03:21 INFO  : Jtag cable 'Digilent Arty 210319A288D7A' is selected.
+12:03:21 INFO  : 'jtag frequency' command is executed.
+12:03:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}' command is executed.
+12:03:23 INFO  : Device configured successfully with "/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/_ide/bitstream/top.bit"
+12:03:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:24 INFO  : Hardware design and registers information is loaded from '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/top/export/top/hw/top.xsa'.
+12:03:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:03:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:24 INFO  : System reset is completed.
+12:03:27 INFO  : 'after 3000' command is executed.
+12:03:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:27 INFO  : The application '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/Debug/MIcroBlazerFinal.elf' is downloaded to processor 'microblaze_0'.
+12:03:27 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:localhost:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+fpga -file /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+loadhw -hw /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/top/export/top/hw/top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+dow /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/Debug/MIcroBlazerFinal.elf
+----------------End of Script----------------
+
+12:03:28 INFO  : Context for processor 'microblaze_0' is selected.
+12:03:28 INFO  : 'con' command is executed.
+12:03:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+con
+----------------End of Script----------------
+
+12:03:28 INFO  : Launch script is exported to file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal_system/_ide/scripts/systemdebugger_microblazerfinal_system_standalone.tcl'
+14:57:34 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/temp_xsdb_launch_script.tcl
+14:57:41 INFO  : XSCT server has started successfully.
+14:57:41 INFO  : Successfully done setting XSCT server connection channel  
+14:57:41 INFO  : plnx-install-location is set to ''
+14:57:41 INFO  : Successfully done setting workspace for the tool. 
+14:57:43 INFO  : Platform repository initialization has completed.
+14:57:43 INFO  : Registering command handlers for Vitis TCF services
+14:57:44 INFO  : Successfully done query RDI_DATADIR 
+15:07:57 INFO  : Connected through redirection to target on host 'localhost' and port '3121'.
+15:07:58 INFO  : Jtag cable 'Digilent Arty 210319A288D7A' is selected.
+15:07:58 INFO  : 'jtag frequency' command is executed.
+15:07:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}' command is executed.
+15:08:12 INFO  : Device configured successfully with "/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/_ide/bitstream/top.bit"
+15:08:12 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:12 INFO  : Hardware design and registers information is loaded from '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/top/export/top/hw/top.xsa'.
+15:08:12 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:08:13 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:13 INFO  : System reset is completed.
+15:08:16 INFO  : 'after 3000' command is executed.
+15:08:16 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:16 INFO  : The application '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/Debug/MIcroBlazerFinal.elf' is downloaded to processor 'microblaze_0'.
+15:08:16 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:localhost:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+fpga -file /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/_ide/bitstream/top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+loadhw -hw /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/top/export/top/hw/top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+dow /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal/Debug/MIcroBlazerFinal.elf
+----------------End of Script----------------
+
+15:08:17 INFO  : Context for processor 'microblaze_0' is selected.
+15:08:17 INFO  : 'con' command is executed.
+15:08:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+con
+----------------End of Script----------------
+
+15:08:17 INFO  : Launch script is exported to file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP9FInal/MIcroBlazerFinal_system/_ide/scripts/systemdebugger_microblazerfinal_system_standalone.tcl'
+19:00:55 INFO  : Disconnected from the channel tcfchan#1.

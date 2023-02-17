@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty 210319A2D006A&quot;,&quot;indexContextMap&quot;:{&quot;14&quot;:&quot;jsn-Arty-210319A2D006A-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A2CECCA&quot;,&quot;indexContextMap&quot;:{&quot;18&quot;:&quot;jsn-Arty-210319A2CECCA-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A28998A&quot;,&quot;indexContextMap&quot;:{&quot;6&quot;:&quot;jsn-Arty-210319A28998A-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A2CE12A&quot;,&quot;indexContextMap&quot;:{&quot;10&quot;:&quot;jsn-Arty-210319A2CE12A-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A288D7A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty-210319A288D7A-0362d093-0&quot;}}]}"/>
+	<item key="devices_info_ProcomConect" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty 210319A2D006A&quot;,&quot;indexContextMap&quot;:{&quot;12&quot;:&quot;jsn-Arty-210319A2D006A-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A2CECCA&quot;,&quot;indexContextMap&quot;:{&quot;16&quot;:&quot;jsn-Arty-210319A2CECCA-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A28998A&quot;,&quot;indexContextMap&quot;:{&quot;6&quot;:&quot;jsn-Arty-210319A28998A-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A2CE12A&quot;,&quot;indexContextMap&quot;:{&quot;10&quot;:&quot;jsn-Arty-210319A2CE12A-0362d093-0&quot;}},{&quot;name&quot;:&quot;Digilent Arty 210319A288D7A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty-210319A288D7A-0362d093-0&quot;}}]}"/>
+	<item key="MicroBlazerConTrama_system-bitFile" value="${project_loc:MicroBlazerConTrama}/_ide/bitstream/fpga.bit"/>
+	<item key="MicroBlazerConTrama_system-bmmFile" value="${project_loc:MicroBlazerConTrama}/_ide/bitstream/fpga.mmi"/>
+	<item key="MicroBlazerConTrama_system-target" value="ProcomConect"/>
+	<item key="MicroBlazerConTrama_system-device" value="Digilent Arty 210319A288D7A/2-xc7a35t"/>
+	<item key="MicroBlazerConTrama_system-partial_bit" value="false"/>
+	<item key="MicroBlazerConTrama_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="MicroBlazerConTrama_system"/>
+	<item key="MicroBlazerConTrama_system-microblaze_0-initElf" value="bootloop"/>
+</section>

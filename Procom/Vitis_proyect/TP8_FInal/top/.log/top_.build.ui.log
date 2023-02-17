@@ -1,0 +1,107 @@
+2023-02-14T22:49:32.5567700255-22:49:32 **** Build of project top ****
+000-buildplatform.sh 35309 top  
+000-XSDB Server Channel: tcfchan#1
+000-Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
+000-make --no-print-directory seq_libs
+000-
+000-Finished building libraries sequentially.
+000-
+000-make -j --no-print-directory par_libs
+000-
+000-Running Make include in microblaze_0/libsrc/standalone_v7_3/src
+000-
+000-Running Make include in microblaze_0/libsrc/gpio_v4_7/src
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra"
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar
+000-" "COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-secti
+000-ons -Wall -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/cpu_v2_12/src
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_12/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/uartlite_v3_5/src
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" 
+000-"COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-section
+000-s -Wall -Wextra"
+000-
+000-Running Make include in microblaze_0/libsrc/bram_v4_5/src
+000-
+000-make -C microblaze_0/libsrc/bram_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+000-PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+000-all -Wextra"
+000-
+000-Running Make libs in microblaze_0/libsrc/standalone_v7_3/src
+000-
+000-Running Make libs in microblaze_0/libsrc/gpio_v4_7/src
+000-
+000-make -C microblaze_0/libsrc/standalone_v7_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+000-COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+000- -Wall -Wextra"
+000-
+000-Running Make libs in microblaze_0/libsrc/cpu_v2_12/src
+000-
+000-make -C microblaze_0/libsrc/gpio_v4_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra"
+000-
+000-make -C microblaze_0/libsrc/cpu_v2_12/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra"
+000-
+000-Running Make libs in microblaze_0/libsrc/uartlite_v3_5/src
+000-
+000-make -C microblaze_0/libsrc/uartlite_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+000-MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -
+000-Wall -Wextra"
+000-
+000-Running Make libs in microblaze_0/libsrc/bram_v4_5/src
+000-
+000-make -C microblaze_0/libsrc/bram_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+000-ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+000- -Wextra"
+000-
+000/top55-1-1#pragma message: For the sleep routines, assembly instructions are used0-microblaze_sleep.c:55:9: note: #pragma message: For the sleep routines, assembly instructions are used
+000-   55 | #pragma message ("For the sleep routines, assembly instructions are used")
+000-      |         ^~~~~~~
+000-DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o
+000-
+000-Finished building libraries parallelly.
+000-
+000-make --no-print-directory archive
+000-
+000-mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xil_assert.o microblaze_0/
+000-lib/xgpio_sinit.o microblaze_0/lib/_exit.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microblaze_update_icache
+000-.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xgpio.o microblaze_0/lib/pvr.o microblaze_0/lib/xil_exception.o microblaze_0
+000-/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib
+000-/errno.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib
+000-/xuartlite_intr.o microblaze_0/lib/xbram.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_excep
+000-tions.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/xil_testcache.o micr
+000-oblaze_0/lib/xil_util.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlit
+000-e_sinit.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/xuartlite_g.o
+000- microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/microblaze_invalidate_ica
+000-che.o microblaze_0/lib/outbyte.o microblaze_0/lib/xio.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microb
+000-laze_0/lib/xbram_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microbla
+000-ze_flush_cache_ext_range.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xgpio_
+000-g.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_disable_inter
+000-rupts.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/xbram_sinit.o micr
+000-oblaze_0/lib/xbram_g.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/xil_cache.o m
+000-icroblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/microblaze_flush_dcache_r
+000-ange.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/xil_testio.o m
+000-icroblaze_0/lib/print.o microblaze_0/lib/microblaze_disable_exceptions.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xplatfor
+000-m_info.o microblaze_0/lib/microblaze_init_icache_range.o microblaze_0/lib/fcntl.o microblaze_0/lib/xgpio_extra.o microblaze_0/l
+000-ib/xil_mem.o
+000-
+000-/tools/Xilinx/Vitis/2020.2/gnu/microblaze/lin/bin/../x86_64-oesdk-linux/usr/bin/microblaze-xilinx-elf/microblaze-xilinx-elf-ar.real: creating microblaze_0/lib/libxil.a
+000-Finished building libraries
+000-
+00255-
+22:49:39 Build Finished (took 7s.229ms)
+

@@ -1,0 +1,6 @@
+23:25:59 **** Incremental Build of configuration Debug for project MicroControl ****
+make all 
+make: No se hace nada para 'all'.
+
+23:26:00 Build Finished (took 432ms)
+

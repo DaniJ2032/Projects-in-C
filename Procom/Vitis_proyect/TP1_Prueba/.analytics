@@ -1,0 +1,25 @@
+timestamp=[2022-09-22 15:00:19], mode=WORKBENCH_START, duration=0:00:12.582, duration_ms=12582, data={}
+timestamp=[2022-09-22 15:00:23], mode=WORKBENCH_UI_INIT, duration=0:00:03.195, duration_ms=3195, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-09-22 15:00:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:11.909, duration_ms=11909, data={}
+timestamp=[2022-09-24 20:04:27], mode=WORKBENCH_START, duration=0:01:24.846, duration_ms=84846, data={}
+timestamp=[2022-09-24 20:04:33], mode=WORKBENCH_UI_INIT, duration=0:00:05.166, duration_ms=5166, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2022-09-24 20:04:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:24.662, duration_ms=24662, data={}
+timestamp=[2022-09-24 21:56:09], mode=APP_CREATION, duration=0:00:11.191, duration_ms=11191, data={name=MicroControl, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=fpga, application_type=application}
+timestamp=[2022-09-24 22:34:47], mode=PLATFORM_GENERATION, duration=0:00:07.063, duration_ms=7063, data={name=fpga}
+timestamp=[2022-09-24 22:34:48], mode=BUILD, duration=0:00:00.987, duration_ms=987, data={name=MicroControl, configuration=Debug, clean_build=false}
+timestamp=[2022-09-24 23:24:50], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=MicroControl, configuration=Debug, clean_build=false}
+timestamp=[2022-09-24 23:25:16], mode=BUILD, duration=0:00:00.436, duration_ms=436, data={name=MicroControl, configuration=Debug, clean_build=false}
+timestamp=[2022-09-24 23:26:00], mode=BUILD, duration=0:00:00.436, duration_ms=436, data={name=MicroControl, configuration=Debug, clean_build=false}
+timestamp=[2022-09-24 23:26:01], mode=BUILD, duration=0:00:00.425, duration_ms=425, data={name=MicroControl_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-25 01:08:47], mode=WORKBENCH_START, duration=0:02:05.108, duration_ms=125108, data={}
+timestamp=[2022-09-25 01:08:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.263, duration_ms=1263, data={}
+timestamp=[2022-09-25 01:08:53], mode=WORKBENCH_UI_INIT, duration=0:00:05.518, duration_ms=5518, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=MicroControl,MicroControl_system,RemoteSystemsTempFiles,fpga}
+timestamp=[2022-09-25 17:44:23], mode=WORKBENCH_START, duration=0:00:36.274, duration_ms=36274, data={}
+timestamp=[2022-09-25 17:44:25], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.799, duration_ms=799, data={}
+timestamp=[2022-09-25 17:44:26], mode=WORKBENCH_UI_INIT, duration=0:00:02.997, duration_ms=2997, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=MicroControl,MicroControl_system,RemoteSystemsTempFiles,fpga}
+timestamp=[2022-09-27 10:38:45], mode=WORKBENCH_START, duration=0:00:30.942, duration_ms=30942, data={}
+timestamp=[2022-09-27 10:38:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.025, duration_ms=1025, data={}
+timestamp=[2022-09-27 10:38:48], mode=WORKBENCH_UI_INIT, duration=0:00:03.747, duration_ms=3747, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=MicroControl,MicroControl_system,RemoteSystemsTempFiles,fpga}
+timestamp=[2022-09-27 13:03:11], mode=WORKBENCH_START, duration=0:00:41.170, duration_ms=41170, data={}
+timestamp=[2022-09-27 13:03:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.675, duration_ms=1675, data={}
+timestamp=[2022-09-27 13:03:15], mode=WORKBENCH_UI_INIT, duration=0:00:04.053, duration_ms=4053, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=MicroControl,MicroControl_system,RemoteSystemsTempFiles,fpga}

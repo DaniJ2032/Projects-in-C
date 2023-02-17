@@ -1,0 +1,25 @@
+Guia TP 4 ---> https://ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/PracticoRaspberry
+
+
+https://franciscomoya.gitbooks.io/taller-de-raspberry-pi/content/es/c/ ---> Taller Raspberry español
+
+https://www.raspberrypi.com/documentation/ --> Documentacion de Raspberry
+
+https://github.com/tttapa/docker-arm-cross-toolchain ---> Compilador cruzado
+
+Ejercicio 1 y 2 ---> https://ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/EjemploC
+
+Ejercicio 3 --> https://ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/EcoNoEco 
+Video TP3 --> https://www.youtube.com/watch?v=_qa0eFzwR6A
+
+Ejercicio 4,5 y 6 ---> https://www.youtube.com/watch?v=thWd4O376_E 
+                  ---> https://www.youtube.com/watch?v=JGL_LKCfN-M
+
+Ejercicio 7 --> https://ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/ConversorAD
+
+Ejercicio 8 ---> https://ciii.frc.utn.edu.ar/TecnicasDigitalesII/WebHome/TrabajosPracticos/ModuloUART
+Clase       ---> https://www.youtube.com/watch?v=xPQ8m8LD630
+ejemplo comunicacion en PC y Raspberry con arduino ---> https://collselectronics.wordpress.com/portfolio/comunicacion-serie-arduino-raspberry/ 
+
+   
+

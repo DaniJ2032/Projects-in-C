@@ -1,0 +1,7 @@
+timestamp=[2023-02-14 22:47:09], mode=WORKBENCH_START, duration=0:00:04.565, duration_ms=4565, data={}
+timestamp=[2023-02-14 22:47:09], mode=WORKBENCH_UI_INIT, duration=0:00:00.516, duration_ms=516, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-02-14 22:47:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.531, duration_ms=2531, data={}
+timestamp=[2023-02-14 22:47:51], mode=APP_CREATION, duration=0:00:05.508, duration_ms=5508, data={name=MIcroBlazerTP8, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=top, application_type=application}
+timestamp=[2023-02-14 22:49:39], mode=PLATFORM_GENERATION, duration=0:00:07.285, duration_ms=7285, data={name=top}
+timestamp=[2023-02-14 22:49:42], mode=BUILD, duration=0:00:01.375, duration_ms=1375, data={name=MIcroBlazerTP8, configuration=Debug, clean_build=false}
+timestamp=[2023-02-14 22:49:44], mode=BUILD, duration=0:00:00.635, duration_ms=635, data={name=MIcroBlazerTP8_system, configuration=Debug, clean_build=false}

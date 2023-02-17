@@ -1,0 +1,3 @@
+Este; es un Ejemplo; de como leer; un archivo de texto; con C# :-);
+Oleme las bolas peludas jajajaj
+Prueba superada

@@ -1,0 +1,28 @@
+Nothing to build in platform 'fpga'
+
+15:08:13 **** Incremental Build of configuration Debug for project MicroBlazerConTrama ****
+make all 
+Building file: ../src/protocolo_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/protocolo_main.o" -I/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP7/fpga/export/fpga/sw/fpga/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/protocolo_main.d" -MT"src/protocolo_main.o" -o "src/protocolo_main.o" "../src/protocolo_main.c"
+../src/protocolo_main.c: In function 'main':
+../src/protocolo_main.c:67:3: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+   67 |   read(stdin,&dato[0],1); //Leo el puerto serie
+      |   ^~~~
+      |   fread
+Finished building: ../src/protocolo_main.c
+ 
+Building target: MicroBlazerConTrama.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP7/fpga/export/fpga/sw/fpga/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MicroBlazerConTrama.elf"  ./src/platform.o ./src/protocolo_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MicroBlazerConTrama.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MicroBlazerConTrama.elf  |tee "MicroBlazerConTrama.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5404	    304	   3252	   8960	   2300	MicroBlazerConTrama.elf
+Finished building: MicroBlazerConTrama.elf.size
+ 
+15:08:15 **** Incremental Build of configuration Debug for project MicroBlazerConTrama_system ****
+make all 
+Skipping SD card image generation. Reason: The system project only has applications for microblaze processors.

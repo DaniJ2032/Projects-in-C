@@ -1,0 +1,31 @@
+22:49:40 **** Build of configuration Debug for project MIcroBlazerTP8 ****
+make all 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP8_FInal/top/export/top/sw/top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/protocolo_main.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/protocolo_main.o" -I/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP8_FInal/top/export/top/sw/top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/protocolo_main.d" -MT"src/protocolo_main.o" -o "src/protocolo_main.o" "../src/protocolo_main.c"
+../src/protocolo_main.c: In function 'main':
+../src/protocolo_main.c:76:3: warning: implicit declaration of function 'read'; did you mean 'fread'? [-Wimplicit-function-declaration]
+   76 |   read(stdin,&dato[0],1); //Lectura de puerto serie
+      |   ^~~~
+      |   fread
+Finished building: ../src/protocolo_main.c
+ 
+Building target: MIcroBlazerTP8.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP8_FInal/top/export/top/sw/top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "MIcroBlazerTP8.elf"  ./src/platform.o ./src/protocolo_main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: MIcroBlazerTP8.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size MIcroBlazerTP8.elf  |tee "MIcroBlazerTP8.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7080	    304	   3248	  10632	   2988	MIcroBlazerTP8.elf
+Finished building: MIcroBlazerTP8.elf.size
+ 
+
+22:49:42 Build Finished (took 1s.351ms)
+

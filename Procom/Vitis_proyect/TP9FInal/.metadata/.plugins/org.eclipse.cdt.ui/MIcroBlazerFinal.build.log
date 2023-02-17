@@ -1,0 +1,6 @@
+12:00:49 **** Incremental Build of configuration Debug for project MIcroBlazerFinal ****
+make all 
+make: No se hace nada para 'all'.
+
+12:00:50 Build Finished (took 620ms)
+

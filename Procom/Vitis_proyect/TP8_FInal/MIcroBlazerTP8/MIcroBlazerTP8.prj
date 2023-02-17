@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="MIcroBlazerTP8" location="/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP8_FInal/MIcroBlazerTP8" platform="/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/TP8_FInal/top/export/top/top.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="MIcroBlazerTP8_system" sysConfig="top" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="cfce0fdc839f2a100ac0203ff1faad1c">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1990706764">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1800965439" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,182 @@
+15:00:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+15:00:23 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+15:00:24 INFO  : Registering command handlers for Vitis TCF services
+15:00:35 INFO  : Platform repository initialization has completed.
+15:00:35 INFO  : XSCT server has started successfully.
+15:00:35 INFO  : XSCT server has started successfully.
+15:00:35 INFO  : plnx-install-location is set to ''
+15:00:35 INFO  : Successfully done setting XSCT server connection channel  
+15:00:35 INFO  : Successfully done setting XSCT server connection channel  
+15:00:35 INFO  : Successfully done setting workspace for the tool. 
+15:00:35 INFO  : Successfully done setting workspace for the tool. 
+15:00:38 INFO  : Successfully done query RDI_DATADIR 
+20:04:33 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+20:04:35 INFO  : Registering command handlers for Vitis TCF services
+20:04:52 INFO  : XSCT server has started successfully.
+20:04:52 INFO  : Successfully done setting XSCT server connection channel  
+20:04:58 INFO  : Platform repository initialization has completed.
+20:06:17 INFO  : plnx-install-location is set to ''
+20:06:17 INFO  : Successfully done setting workspace for the tool. 
+20:06:17 INFO  : Successfully done query RDI_DATADIR 
+21:49:07 INFO  : Saving repository preferences.
+21:49:07 INFO  : plnx-install-location is set to ''
+21:56:05 INFO  : Result from executing command 'getProjects': fpga
+21:56:05 INFO  : Result from executing command 'getPlatforms': 
+21:56:05 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:56:05 INFO  : Platform 'fpga' is added to custom repositories.
+21:56:09 INFO  : Platform 'fpga' is added to custom repositories.
+22:04:17 INFO  : No changes in MSS file content so sources will not be generated.
+22:05:12 INFO  : No changes in MSS file content so sources will not be generated.
+22:34:44 INFO  : Result from executing command 'getProjects': fpga
+22:34:44 INFO  : Result from executing command 'getPlatforms': fpga|/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/fpga/export/fpga/fpga.xpfm
+22:34:47 INFO  : Checking for BSP changes to sync application flags for project 'MicroControl'...
+23:17:44 ERROR : Failed to connect to hardware server on host 'localhost' and port '3121'.
+Reason: Connection refused
+23:19:31 ERROR : Failed to connect to hardware server on host 'localHost' and port '3121'.
+Reason: Connection refused
+23:20:22 ERROR : Failed to connect to hardware server on host 'localHost' and port '3121'.
+Reason: Connection refused
+23:24:49 INFO  : Checking for BSP changes to sync application flags for project 'MicroControl'...
+23:25:16 INFO  : Checking for BSP changes to sync application flags for project 'MicroControl'...
+23:25:59 INFO  : Checking for BSP changes to sync application flags for project 'MicroControl'...
+23:31:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:32:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:54:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:55:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:56:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:57:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:00:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:01:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:01:57 INFO  : Bit file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit' is generated.
+00:01:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:05:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:05:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:08:13 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+01:08:32 INFO  : XSCT server has started successfully.
+01:08:32 INFO  : Successfully done setting XSCT server connection channel  
+01:08:32 INFO  : plnx-install-location is set to ''
+01:08:32 INFO  : Successfully done setting workspace for the tool. 
+01:08:51 INFO  : Platform repository initialization has completed.
+01:08:53 INFO  : Registering command handlers for Vitis TCF services
+01:10:48 INFO  : Successfully done query RDI_DATADIR 
+01:11:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:12:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:12:48 INFO  : Bit file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit' is generated.
+01:12:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:12:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}' command is executed.
+01:12:48 ERROR : couldn't open "/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit": no such file or directory
+17:44:06 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+17:44:19 INFO  : XSCT server has started successfully.
+17:44:19 INFO  : Successfully done setting XSCT server connection channel  
+17:44:19 INFO  : plnx-install-location is set to ''
+17:44:19 INFO  : Successfully done setting workspace for the tool. 
+17:44:25 INFO  : Platform repository initialization has completed.
+17:44:25 INFO  : Registering command handlers for Vitis TCF services
+17:44:53 INFO  : Successfully done query RDI_DATADIR 
+17:55:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:38:32 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+10:38:42 INFO  : XSCT server has started successfully.
+10:38:42 INFO  : Successfully done setting XSCT server connection channel  
+10:38:42 INFO  : plnx-install-location is set to ''
+10:38:42 INFO  : Successfully done setting workspace for the tool. 
+10:38:47 INFO  : Platform repository initialization has completed.
+10:38:49 INFO  : Registering command handlers for Vitis TCF services
+10:39:01 INFO  : Successfully done query RDI_DATADIR 
+13:02:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/temp_xsdb_launch_script.tcl
+13:03:06 INFO  : XSCT server has started successfully.
+13:03:06 INFO  : plnx-install-location is set to ''
+13:03:06 INFO  : Successfully done setting XSCT server connection channel  
+13:03:06 INFO  : Successfully done setting workspace for the tool. 
+13:03:14 INFO  : Registering command handlers for Vitis TCF services
+13:03:14 INFO  : Platform repository initialization has completed.
+13:03:43 INFO  : Successfully done query RDI_DATADIR 
+13:05:52 ERROR : Failed to connect to hardware server on host '127.0.0.1' and port '3121'.
+Reason: connection failed
+13:06:26 ERROR : Failed to connect to hardware server on host '127.0.0.1' and port '3121'.
+Reason: connection failed
+13:07:12 ERROR : Failed to connect to hardware server on host '127.0.0.1' and port '3121'.
+Reason: connection failed
+13:07:53 ERROR : Failed to connect to hardware server on host '127.0.0.1' and port '3121'.
+Reason: connection failed
+13:09:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:09:57 INFO  : Connected to target on host 'localhost' and port '3121'.
+13:10:06 INFO  : Connected to target on host 'localhost' and port '3121'.
+13:10:33 INFO  : Bit file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit' is generated.
+13:10:33 INFO  : Connected to target on host 'localhost' and port '3121'.
+13:10:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2D006A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}' command is executed.
+13:10:36 INFO  : Device configured successfully with "/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit"
+13:12:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:12:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:12:45 INFO  : Jtag cable 'Digilent Arty 210319A2D006A' is selected.
+13:12:45 INFO  : 'jtag frequency' command is executed.
+13:12:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2D006A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}' command is executed.
+13:12:47 INFO  : Device configured successfully with "/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit"
+13:12:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:48 INFO  : Hardware design and registers information is loaded from '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/fpga/export/fpga/hw/fpga.xsa'.
+13:12:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:12:48 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:48 INFO  : System reset is completed.
+13:12:51 INFO  : 'after 3000' command is executed.
+13:12:51 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:52 INFO  : The application '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/Debug/MicroControl.elf' is downloaded to processor 'microblaze_0'.
+13:12:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A2D006A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}
+fpga -file /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2D006A" && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}
+loadhw -hw /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/fpga/export/fpga/hw/fpga.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2D006A" && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2D006A" && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}
+dow /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/Debug/MicroControl.elf
+----------------End of Script----------------
+
+13:12:52 INFO  : Context for processor 'microblaze_0' is selected.
+13:12:52 INFO  : 'con' command is executed.
+13:12:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A2D006A" && jtag_device_ctx=="jsn-Arty-210319A2D006A-0362d093-0"}
+con
+----------------End of Script----------------
+
+13:12:52 INFO  : Launch script is exported to file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl_system/_ide/scripts/debugger_microcontrol-default.tcl'
+13:29:54 INFO  : Connected to target on host 'localhost' and port '3121'.
+13:40:06 INFO  : Connected to target on host 'localhost' and port '3121'.
+13:40:35 INFO  : Disconnected from the channel tcfchan#9.
+13:40:38 INFO  : Connected through redirection to target on host 'localhost' and port '3121'.
+13:40:38 INFO  : Jtag cable 'Digilent Arty 210319A288D7A' is selected.
+13:40:38 INFO  : 'jtag frequency' command is executed.
+13:40:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}' command is executed.
+13:40:40 INFO  : Device configured successfully with "/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit"
+13:40:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:41 INFO  : Hardware design and registers information is loaded from '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/fpga/export/fpga/hw/fpga.xsa'.
+13:40:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:40:41 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:41 INFO  : System reset is completed.
+13:40:44 INFO  : 'after 3000' command is executed.
+13:40:44 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:45 INFO  : The application '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/Debug/MicroControl.elf' is downloaded to processor 'microblaze_0'.
+13:40:45 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:localhost:3121]
+targets -set -filter {jtag_cable_name =~ "Digilent Arty 210319A288D7A" && level==0 && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+fpga -file /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+loadhw -hw /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/fpga/export/fpga/hw/fpga.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+dow /home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl/Debug/MicroControl.elf
+----------------End of Script----------------
+
+13:40:46 INFO  : Context for processor 'microblaze_0' is selected.
+13:40:46 INFO  : 'con' command is executed.
+13:40:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Arty 210319A288D7A" && jtag_device_ctx=="jsn-Arty-210319A288D7A-0362d093-0"}
+con
+----------------End of Script----------------
+
+13:40:46 INFO  : Launch script is exported to file '/home/danielito/Escritorio/Vivado_proyect/Vitis_proyect/MicroControl_system/_ide/scripts/debugger_microcontrol-default.tcl'
+14:47:04 WARN  : channel "tcfchan#11" closed
